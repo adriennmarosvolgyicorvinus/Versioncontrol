@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B4B4EB8-8D7D-449E-A4C4-BF0872A0AC2B}</ProjectGuid>
+    <ProjectGuid>{D31AFE18-B3BF-4C75-B149-E548AD18FEDB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Olympics</RootNamespace>
     <AssemblyName>Olympics</AssemblyName>
@@ -78,6 +78,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entieties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -39,6 +39,7 @@ namespace ProgramTervezesiMintak
             this.btnBallColor = new System.Windows.Forms.Button();
             this.btnPresent = new System.Windows.Forms.Button();
             this.btnPresentColor = new System.Windows.Forms.Button();
+            this.btnRibbonColor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // mainPanel
@@ -119,11 +120,22 @@ namespace ProgramTervezesiMintak
             this.btnPresentColor.UseVisualStyleBackColor = false;
             this.btnPresentColor.Click += new System.EventHandler(this.btnBallColor_Click);
             // 
+            // btnRibbonColor
+            // 
+            this.btnRibbonColor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnRibbonColor.Location = new System.Drawing.Point(195, 69);
+            this.btnRibbonColor.Name = "btnRibbonColor";
+            this.btnRibbonColor.Size = new System.Drawing.Size(75, 23);
+            this.btnRibbonColor.TabIndex = 7;
+            this.btnRibbonColor.UseVisualStyleBackColor = false;
+            this.btnRibbonColor.Click += new System.EventHandler(this.btnBallColor_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 315);
+            this.Controls.Add(this.btnRibbonColor);
             this.Controls.Add(this.btnPresentColor);
             this.Controls.Add(this.btnPresent);
             this.Controls.Add(this.btnBallColor);
@@ -149,6 +161,7 @@ namespace ProgramTervezesiMintak
         private System.Windows.Forms.Button btnBallColor;
         private System.Windows.Forms.Button btnPresent;
         private System.Windows.Forms.Button btnPresentColor;
+        private System.Windows.Forms.Button btnRibbonColor;
     }
 }
 

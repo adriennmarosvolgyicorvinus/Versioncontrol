@@ -94,5 +94,10 @@ namespace ProgramTervezesiMintak
         {
             Factory = new PresentFactory() { PresentColor = btnPresentColor.BackColor };
         }
+
+        private void btnRibbonColor_Click(object sender, EventArgs e)
+        {
+            Factory = new PresentFactory() { PresentColor = btnRibbonColor.BackColor };
+        }
     }
 }
